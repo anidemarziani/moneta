@@ -137,6 +137,10 @@ main{
     align-items: center;
     height: 224px;
 }
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .card__image{
     height: 30%;
 }

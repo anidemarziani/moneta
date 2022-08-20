@@ -103,4 +103,8 @@
     .contacto__right{
         width: 50%;
     }
+    /* ------------------------------Contacto------------------------------------ */
+    .portada__left p{
+        text-align: start;
+    }
 }

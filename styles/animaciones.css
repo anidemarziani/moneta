@@ -70,3 +70,13 @@ animation-name: fadeInRight-15;
 -webkit-animation-name: fadeInDown-15;
 animation-name: fadeInDown-15;
 }
+
+.duration-50s{
+    animation-duration: 0.5s ;
+}
+.duration-75s{
+    animation-duration: 0.75s ;
+}
+.duration-1s{
+    animation-duration: 1s ;
+}
