@@ -1,110 +1,12 @@
-@media (min-width: 768px) {
-    /* --------------------------------main--------------------------------- */
-    main{
-        padding: 2rem;
-    }
-    /* Textos */
-    article h2{
+@media (min-width: 768px){
+    h2{
         font-size: 2.5rem;
     }
-    article p{
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-    /* ------------------------------ Portada ---------------------------------*/
-    .portada{
-        flex-direction: row;
-        gap: 2rem;
-    }
-    .portada__left{
-        align-items: flex-start;
-    }
-    /* ------------------------------Cuentas ---------------------------------*/
-    .cuentas__contenido{
-        display: flex;
-        align-items: center;
-    }
-    .cuentas__contenido img{
-        min-width: 20rem;
-        padding: 0 2rem;
-    }
-    /* --------------------------------funcionalidades--------------------------------- */
-    .funcionalidades{
-        flex-direction: row;
-        padding-bottom: 2rem;
-    }
-    .funcionalidades__left{
-        width: 50%;
-    }
-    .funcionalidades__right{
-        width: 50%;
-    }
-    /* Cards */
-    .cards{
-        flex-direction: row;
-    }
-    .card{
-        width: 50%;
-    }
-    .card__title{
-        text-align: center;
-    }
-    .card__text{
-        padding: 1rem 0;
-    }
+   
 }
-@media (min-width: 992px) {
-    .container{
-        grid-template-rows: 15vh auto 17vh;
+@media (min-width: 992px){
+    h2{
+        font-size: 3rem !important;
     }
-    article p{
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-    /* --------------------------------header-------------------------------- */
-    header{
-        display: flex;
-        justify-content: space-between;
-        padding: 0 2rem;
-    }
-    /* Logo */
-    .header__logo{
-        flex-grow: 1;
-    }
-    .header__logo img{
-        width: 2.5rem;
-    }
-    /* Navigation */
-    .header__navigation{
-        flex-grow: 3;
-    }
-    .header__navigation ul{
-        flex-direction: row;
-        gap: 2rem;
-        width: 100%;
-        justify-content: end;
-    }
-    /* --------------------------------Footer----------------------------------- */
-    footer{
-        flex-direction: row;
-        padding: 3rem;
-        justify-content: space-between;
-    }
-    /* ------------------------------Contacto------------------------------------ */
-    .contacto{
-        flex-direction: row;
-        padding: 3.7rem 2rem;
-        gap:2rem;
-        align-items: flex-start;
-    }
-    .contacto__left{
-        width: 50%;
-    }
-    .contacto__right{
-        width: 50%;
-    }
-    /* ------------------------------Contacto------------------------------------ */
-    .portada__left p{
-        text-align: start;
-    }
+   
 }
