@@ -67,30 +67,24 @@ footer {
   padding: 3rem;
   background-color: #64379F;
   color: #ffffff; }
-
-footer li {
-  list-style: none; }
-
-footer a {
-  color: #ffffff;
-  text-decoration: none; }
-
-.header__logo h1 {
-  font-weight: 600 !important;
-  color: #64379F;
-  margin: 0; }
+  footer li {
+    list-style: none; }
+  footer a {
+    color: #ffffff;
+    text-decoration: none; }
 
 .header__logo {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding: 1rem; }
-
-.header__logo img {
-  width: 2rem; }
-
-.header__logo h1 {
-  font-size: 1.5rem; }
+  .header__logo h1 {
+    font-weight: 600 !important;
+    color: #64379F;
+    margin: 0;
+    font-size: 1.5rem; }
+  .header__logo img {
+    width: 2rem; }
 
 h2 {
   font-weight: 600 !important; }
@@ -133,24 +127,23 @@ main {
   align-items: center;
   height: 224px;
   border: none !important; }
-
-.card:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-  cursor: pointer; }
+  .card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer; }
 
 .card-title {
   font-weight: 600; }
 
 .nav-link {
   color: #3C3C3C !important; }
-
-.navbar-nav .nav-link.active {
-  color: #64379F !important;
-  font-weight: 600; }
-
-.nav-link:focus, .nav-link:hover {
-  color: #330970 !important; }
+  .nav-link.active {
+    color: #64379F !important;
+    font-weight: 600; }
+  .nav-link.nav-link:focus {
+    color: #330970 !important; }
+  .nav-link.nav-link:hover {
+    color: #330970 !important; }
 
 .badge-primary {
   background-color: #64379F !important;
@@ -169,9 +162,8 @@ main {
   background: none;
   color: #64379F;
   font-weight: 600; }
-
-.btn-verTodos:hover {
-  background-color: #EDE7F4; }
+  .btn-verTodos:hover {
+    background-color: #EDE7F4; }
 
 .btn-enviar {
   background: #64379F;

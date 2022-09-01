@@ -3,9 +3,9 @@
     background: none;
     color:#64379F;
     font-weight: 600;
-}
-.btn-verTodos:hover{
-    background-color: #EDE7F4;
+    &:hover{
+        background-color: #EDE7F4;
+    }
 }
 .btn-enviar{
     background: #64379F;
