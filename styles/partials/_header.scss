@@ -1,0 +1,21 @@
+.header__logo h1{
+    font-weight: 600 !important;
+    color:#64379F;
+    margin: 0;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.header__logo img{
+    width: 2rem;
+}
+.header__logo h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-weight: 600 !important;
+}

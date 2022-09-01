@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #fafafa !important;
+    border-radius: 20px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
+    border:none !important;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card-title{
+    font-weight: 600;
+}

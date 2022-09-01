@@ -1,0 +1,23 @@
+{
+  "name": "4to-entregable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w styles/ -o css/ --recursive -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anidemarziani/moneta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anidemarziani/moneta/issues"
+  },
+  "homepage": "https://github.com/anidemarziani/moneta#readme"
+}
