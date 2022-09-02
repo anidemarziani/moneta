@@ -1,13 +1,13 @@
 .nav-link{
-    color: #3C3C3C !important;
+    color: $black !important;
     &.active {
-        color: #64379F !important;
+        color: $primary !important;
         font-weight: 600;
     }
-    &.nav-link:focus{
-        color: #330970 !important;
+    &:focus{
+        color: $primary-dark !important;
     }
-    &.nav-link:hover{
-        color: #330970 !important;
+    &:hover{
+        color: $primary-dark !important;
     }
 }

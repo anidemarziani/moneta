@@ -140,9 +140,9 @@ main {
   .nav-link.active {
     color: #64379F !important;
     font-weight: 600; }
-  .nav-link.nav-link:focus {
+  .nav-link:focus {
     color: #330970 !important; }
-  .nav-link.nav-link:hover {
+  .nav-link:hover {
     color: #330970 !important; }
 
 .badge-primary {
@@ -153,9 +153,9 @@ main {
 
 .form-control:focus {
   color: #212529;
-  background-color: #fff;
-  border-color: #86b7fe;
-  outline: 0; }
+  background-color: #ffffff;
+  border-color: #EDE7F4;
+  outline: 0 !important; }
 
 .btn-verTodos {
   border: none;
