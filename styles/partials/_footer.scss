@@ -1,12 +1,16 @@
 footer{
     padding: 3rem;
     background-color: map-get($colores, primary);
-    color:#ffffff;
+    color:map-get($colores, blanco);
     li{
         list-style: none;
     }
     a{
         color:map-get($colores, blanco);
         text-decoration: none;
+        &:hover{
+            color: $grey-light;
+            text-decoration: none;
+        }
     }
 }
