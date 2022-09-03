@@ -1,3 +1,19 @@
+.btn-verTodos, .btn-enviar {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 224px;
+  border: none !important; }
+
 @keyframes fadeInUp-15 {
   from {
     opacity: 0;
@@ -117,16 +133,8 @@ main {
   grid-template-rows: 27vh auto 15vh; }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background: #fafafa !important;
-  border-radius: 20px;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
-  height: 224px;
-  border: none !important; }
+  background-color: #fafafa !important;
+  border-radius: 20px; }
   .card:hover {
     transform: scale(1.1);
     transition: 0.5s;
@@ -146,7 +154,7 @@ main {
     color: #330970 !important; }
 
 .badge-primary {
-  background-color: #64379F !important;
+  background-color: #64379F;
   position: absolute;
   top: 2rem;
   right: 2rem; }
@@ -158,17 +166,11 @@ main {
   outline: 0 !important; }
 
 .btn-verTodos {
-  border: none;
-  background: none;
   color: #64379F;
-  font-weight: 600; }
+  background-color: #ffffff; }
   .btn-verTodos:hover {
     background-color: #EDE7F4; }
 
 .btn-enviar {
-  background: #64379F;
-  padding: 1rem 2rem;
-  border: none;
   color: #ffffff;
-  font-family: 'Montserrat';
-  border-radius: 4px !important; }
+  background-color: #64379F; }

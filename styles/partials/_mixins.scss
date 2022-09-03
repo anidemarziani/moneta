@@ -1,0 +1,12 @@
+@mixin botones($textColor,$backgroundColor){
+    color:$textColor;
+    background-color: $backgroundColor;
+}
+@mixin cards ($background,$borderRadius:true){
+    background-color: $background;
+    @if($borderRadius) {
+        border-radius: 20px;
+      } @else {
+        border-radius: 0px;
+    }
+}

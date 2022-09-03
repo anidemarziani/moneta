@@ -1,5 +1,5 @@
 .badge-primary{
-    background-color: $primary !important;
+    background-color: map-get($colores, primary);
     position: absolute;
     top:2rem;
     right: 2rem;

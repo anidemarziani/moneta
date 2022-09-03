@@ -1,17 +1,11 @@
 .btn-verTodos{
-    border:none;
-    background: none;
-    color:$primary;
-    font-weight: 600;
+    @extend %botonBase;
+    @include botones ($backgroundColor:$white, $textColor:$primary);
     &:hover{
         background-color: $primary-light;
     }
 }
 .btn-enviar{
-    background: $primary;
-    padding: 1rem 2rem;
-    border: none;
-    color: $white;
-    font-family: 'Montserrat';
-    border-radius: 4px !important;
+    @extend %botonBase;
+    @include botones ($backgroundColor:$primary, $textColor:$white);
 }

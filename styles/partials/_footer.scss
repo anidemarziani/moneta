@@ -1,12 +1,12 @@
 footer{
     padding: 3rem;
-    background-color: $primary;
+    background-color: map-get($colores, primary);
     color:#ffffff;
     li{
         list-style: none;
     }
     a{
-        color:$white;
+        color:map-get($colores, blanco);
         text-decoration: none;
     }
 }

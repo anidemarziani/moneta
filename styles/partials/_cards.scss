@@ -1,14 +1,6 @@
 .card{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background: $grey-light !important;
-    border-radius: 20px;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    height: 224px;
-    border:none !important;
+    @extend %cardBase;
+    @include cards ($borderRadius:true, $background:$grey-light !important);
     &:hover{
         transform: scale(1.1);
         transition: 0.5s;
