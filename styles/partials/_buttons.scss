@@ -9,3 +9,7 @@
     @extend %botonBase;
     @include botones ($backgroundColor:$primary, $textColor:$white);
 }
+.btn-primary-moneta{
+    @extend %botonBase;
+    @include botones ($backgroundColor:$primary, $textColor:$white);
+}

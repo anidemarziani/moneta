@@ -6,7 +6,19 @@
         transition: 0.5s;
         cursor: pointer;
     }
+    &-title{
+        font-weight: 600;
+    }
 }
-.card-title{
-    font-weight: 600;
+.banner{
+    &-cuentas{
+        color: $white;
+        border-radius: 0.5rem;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: 0.5s;
+            background-color: $primary-dark !important;
+        }
+    }
 }

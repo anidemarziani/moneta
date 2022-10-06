@@ -1,8 +1,23 @@
+@media (max-width: 767px){
+    .img{
+        &-categoriza{
+            width: 9rem;
+        }
+        &-priorizaPresupuesto{
+            width: 6.4rem;
+        }
+    }
+    footer{
+            padding: 3rem 0;
+    }
+}
 @media (min-width: 768px){
     h2{
         font-size: 2.5rem;
     }
-   
+    footer{
+        padding: 3rem;
+    }
 }
 @media (min-width: 992px){
     h2{
@@ -11,5 +26,5 @@
     .navbar-nav{
         gap: 1rem;
     }
-   
+
 }

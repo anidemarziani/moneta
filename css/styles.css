@@ -1,4 +1,4 @@
-.btn-verTodos, .btn-enviar {
+.btn-verTodos, .btn-enviar, .btn-primary-moneta {
   padding: 1rem;
   border: none;
   border-radius: 5px;
@@ -79,8 +79,13 @@
 .duration-1s {
   animation-duration: 1s; }
 
+.background-grey {
+  background-color: #fafafa; }
+
+.background-primary {
+  background-color: #64379F !important; }
+
 footer {
-  padding: 3rem;
   background-color: #64379F;
   color: #ffffff; }
   footer li {
@@ -111,11 +116,21 @@ h2 {
 main {
   grid-area: main;
   background-color: #ffffff;
-  padding: 2rem 1rem; }
+  padding: 2rem 0 0; }
+
+@media (max-width: 767px) {
+  .img-categoriza {
+    width: 9rem; }
+  .img-priorizaPresupuesto {
+    width: 6.4rem; }
+  footer {
+    padding: 3rem 0; } }
 
 @media (min-width: 768px) {
   h2 {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+  footer {
+    padding: 3rem; } }
 
 @media (min-width: 992px) {
   h2 {
@@ -135,6 +150,12 @@ main {
   grid-template-columns: 100%;
   grid-template-rows: 27vh auto 15vh; }
 
+h3 {
+  font-weight: 600 !important; }
+
+a {
+  text-decoration: none !important; }
+
 .card {
   background-color: #fafafa !important;
   border-radius: 20px; }
@@ -142,9 +163,17 @@ main {
     transform: scale(1.1);
     transition: 0.5s;
     cursor: pointer; }
+  .card-title {
+    font-weight: 600; }
 
-.card-title {
-  font-weight: 600; }
+.banner-cuentas {
+  color: #ffffff;
+  border-radius: 0.5rem; }
+  .banner-cuentas:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: #330970 !important; }
 
 .nav-link {
   color: #3C3C3C !important; }
@@ -175,5 +204,9 @@ main {
     background-color: #EDE7F4; }
 
 .btn-enviar {
+  color: #ffffff;
+  background-color: #64379F; }
+
+.btn-primary-moneta {
   color: #ffffff;
   background-color: #64379F; }

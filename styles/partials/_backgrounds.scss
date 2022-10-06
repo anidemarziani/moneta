@@ -1,0 +1,8 @@
+.background{
+    &-grey{
+        background-color: #fafafa;
+    }
+    &-primary{
+        background-color: $primary !important;
+    }
+}
